@@ -53,9 +53,6 @@ This split reduces support material and makes the upper internal geometry printa
 - [Makefile](/Users/avonar/petprojects/hydrocyclone_v2/Makefile)  
   Rebuilds printable artifacts and debug sections.
 
-- [1.md](/Users/avonar/petprojects/hydrocyclone_v2/1.md)  
-  Original project notes and engineering rationale in Russian.
-
 Generated files are written into `artifacts/`.
 
 ## Build
