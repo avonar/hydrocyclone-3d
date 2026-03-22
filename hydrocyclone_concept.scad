@@ -7,12 +7,12 @@ render_mode = is_undef(render_mode) ? "assembly" : render_mode;
 
 dc = 40; // Inner diameter of cylindrical vortex chamber
 hc = 40; // Height of cylindrical vortex chamber
-lc = 120; // Cone length
+lc = 180; // Cone length
 do_inner = 14; // Vortex finder inner diameter
-vf_insert = 16; // Vortex finder insertion depth below the removable lid
+vf_insert = 18.5; // Vortex finder insertion depth below the removable lid
 du = 9; // Lower outlet diameter
-bottom_stub_len = 36; // Lower straight outlet for connection to a separate collector
-bottom_stub_od = 22; // Outer diameter of the lower outlet stub
+bottom_stub_len = 27.9; // Lower straight outlet for connection to a separate collector
+bottom_stub_od = 25; // Outer diameter of the lower outlet stub for a 25 mm PP connection
 
 wall = 4; // Minimum wall thickness
 top_cap = 6; // Removable lid thickness
@@ -22,12 +22,12 @@ port_overlap = 4; // Extra overlap for bores so they remain visibly through
 vf_outer_od = do_inner + 2 * wall; // Solid inner sleeve diameter of the vortex finder
 
 outlet_stub_len = 48; // Straight outlet stub above the removable lid
-outlet_stub_od = 32; // Outer diameter of outlet stub
-outlet_stub_id = 26; // Bore for top outlet connection
-outlet_transition_len = 14; // Internal transition length from the 32 mm connector bore to the vortex finder
+outlet_stub_od = 25; // Outer diameter of outlet stub
+outlet_stub_id = 17; // Bore for top outlet connection sized around a 25 mm PP pipe wall
+outlet_transition_len = 14; // Internal transition length from the 25 mm connector bore to the vortex finder
 
-inlet_pipe_od = 32; // External connection sized for a 32 mm pipe
-inlet_pipe_id = 26; // Approximate bore for a 32 mm PE/PND pipe connection
+inlet_pipe_od = 25; // External connection sized for a 25 mm PP pipe
+inlet_pipe_id = 17; // Approximate bore for a 25 mm PP pipe connection
 inlet_slot_w = 8; // Tangential slot width at the chamber wall
 inlet_slot_h = 10; // Tangential slot height
 inlet_outer_slot_w = inlet_slot_w + 2 * wall;

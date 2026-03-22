@@ -6,7 +6,7 @@ The current concept is aimed at:
 
 - `1-3 m^3/h` operating range, with `2.5 m^3/h` as the main design point
 - `2-4 bar` system pressure
-- `32 mm` external pipe connections
+- `25 mm` external PP-style pipe connections in the current CAD iteration
 - sand and coarse suspended solids removal before a downstream filter
 
 This is a geometry and assembly prototype, not a certified pressure vessel.
@@ -29,8 +29,15 @@ Current base proportions:
 
 The inlet is modeled as:
 
-- external round `32 mm` stub
+- external round `25 mm` stub
 - internal transition to a short tangential slot
+
+The current connection assumption is intentionally simple:
+
+- outer connection diameter is matched to `25 mm` PP pipe/fitting size
+- internal straight bore of the external stubs is currently set to `17 mm` as a generic working assumption
+
+If your actual PP system uses a different wall class or a specific fitting geometry, the outer interface should be treated as the main constraint and the internal bore can be adjusted later.
 
 The top assembly is split into two printable parts:
 
